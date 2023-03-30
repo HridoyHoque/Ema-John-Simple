@@ -5,12 +5,12 @@ const Header = () => {
     return (
         <nav className='header'>
             <img src={logo} alt="" />
-          <div>
-          <a href="/Order">Order</a>
-           <a href="/Order review">Order</a>
-           <a href="/Manage Inventory">Inventory</a>
-           <a href="/login">Login</a>
-          </div>
+            <div>
+                <a href="/Shop">Shop</a>
+                <a href="/Order review">Order</a>
+                <a href="/Manage Inventory">Inventory</a>
+                <a href="/login">Login</a>
+            </div>
         </nav>
     );
 };
